@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Hari Ini - Portal Berita Terkini</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .nav {
+            background-color: #34495e;
+            padding: 1rem;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .featured-article {
+            margin-bottom: 3rem;
+        }
+
+        .featured-article img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .article-content {
+            margin-top: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .news-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+        }
+
+        .news-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        .category-tag {
+            background-color: #e74c3c;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 3px;
+            display: inline-block;
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>BERITA HARI INI</h1>
+        <p>Portal Berita Terpercaya dan Terkini</p>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#politik">Politik</a></li>
+            <li><a href="#ekonomi">Ekonomi</a></li>
+            <li><a href="#teknologi">Teknologi</a></li>
+            <li><a href="#olahraga">Olahraga</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <article class="featured-article">
+            <h2>Peluncuran Satelit Komunikasi Merah Putih II Sukses Mengorbit</h2>
+            <span class="category-tag">Teknologi</span>
+            <img src="https://picsum.photos/1200/400?random=6" alt="Satelit Merah Putih II">
+
+            <div class="article-content">
+                <p><strong>Jakarta</strong> – Pada tanggal 7 Mei 2025, Indonesia kembali menorehkan prestasi di kancah luar angkasa dengan suksesnya peluncuran Satelit Merah Putih II dari Cape Canaveral, Amerika Serikat. Satelit ini dirancang untuk memperkuat jaringan komunikasi nasional, khususnya di wilayah terpencil.</p>
+
+                <p>Satelit Merah Putih II memiliki kapasitas transmisi data hingga 30 Gbps dan dilengkapi teknologi High Throughput Satellite (HTS) yang dikembangkan bersama mitra internasional dari Prancis dan Amerika. Peluncuran ini merupakan bagian dari strategi transformasi digital nasional.</p>
+
+                <h3>Fungsi Utama Satelit</h3>
+                <ul>
+                    <li>Meningkatkan akses internet di daerah 3T</li>
+                    <li>Memperkuat jaringan komunikasi pemerintahan</li>
+                    <li>Mendukung layanan pendidikan dan kesehatan daring</li>
+                    <li>Siap operasional penuh pada Agustus 2025</li>
+                </ul>
+
+                <p>Direktur Utama TelkomSat, Bambang Haryo, menyebutkan bahwa proyek ini adalah bukti nyata komitmen Indonesia untuk menjadi negara berdaya saing digital tinggi. "Kami targetkan seluruh pelosok negeri bisa terkoneksi lebih cepat dan stabil," ujarnya dalam konferensi pers.</p>
+
+                <p>Proyek ini mendapat apresiasi dari Presiden dan berbagai kalangan akademik yang melihatnya sebagai lompatan besar dalam pembangunan infrastruktur digital nasional.</p>
+            </div>
+            <p class="author">Ditulis oleh: Admin Berita - 7 Mei 2025</p>
+        </article>
+
+        <section class="news-grid">
+            <div class="news-card">
+                <img src="https://picsum.photos/300/200?random=4" alt="Berita Politik">
+                <span class="category-tag">Politik</span>
+                <h3>RUU Perlindungan Data Pribadi Resmi Disahkan</h3>
+                <p>DPR akhirnya mengesahkan RUU PDP sebagai landasan hukum penting di era digital yang penuh risiko kebocoran data...</p>
+                <a href="#">Baca Selengkapnya →</a>
+            </div>
+
+            <div class="news-card">
+                <img src="https://picsum.photos/301/200?random=5" alt="Berita Ekonomi">
+                <span class="category-tag">Ekonomi</span>
+                <h3>Rupiah Menguat, Investor Asing Kembali Masuk</h3>
+                <p>Nilai tukar rupiah terhadap dolar AS menguat signifikan di tengah tren suku bunga global yang mulai menurun...</p>
+                <a href="#">Baca Selengkapnya →</a>
+            </div>
+
+            <div class="news-card">
+                <img src="https://picsum.photos/302/200?random=6" alt="Berita Olahraga">
+                <span class="category-tag">Olahraga</span>
+                <h3>Timnas U-23 Indonesia Lolos ke Final SEA Games 2025</h3>
+                <p>Skuad muda Garuda berhasil mengalahkan Thailand dengan skor 3-1 dalam semifinal sengit di Stadion Nasional Laos...</p>
+                <a href="#">Baca Selengkapnya →</a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 Berita Hari Ini - All Rights Reserved</p>
+        <p>Redaksi: redaksi@beritahariini.com</p>
+    </footer>
+</body>
+</html>
